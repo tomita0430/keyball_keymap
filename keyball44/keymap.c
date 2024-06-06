@@ -34,18 +34,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_ESC        , KC_Q     , KC_W     , KC_E     , KC_R     , KC_T     ,                                   KC_Y     , KC_U     , KC_I     , KC_O     , KC_P     , KC_BSPC   ,
     LCTL_T(KC_TAB), KC_A     , KC_S     , KC_D     , KC_F     , KC_G     ,                                   KC_H     , KC_J     , KC_K     , KC_L     , KC_SCLN  , LT(1,KC_ENT)  ,
     KC_LSFT       , KC_Z     , KC_X     , KC_C     , KC_V     , KC_B     ,                                   KC_N     , KC_M     , KC_COMM  , KC_DOT   , KC_SLSH  , LT(2,KC_ENT)  ,
-                               KC_LALT ,KC_LGUI,      LT(4, KC_LNG1),KC_SPC ,LT(3,KC_LNG2),     KC_BSPC   , KC_ENT,           RCTL_T(KC_LNG2), KC_RALT , KC_PSCR
+                               KC_LALT ,KC_LGUI,      LT(4, KC_LNG1),KC_SPC ,LT(3,KC_LNG2),     KC_BSPC   , KC_ENT,           RCTL_T(KC_LNG2), KC_RALT , KC_RALT
   ),
 
   [1] = LAYOUT_universal(
-    KC_F1         , KC_F2    , KC_F3    , KC_F4    , KC_F5    , KC_F6    ,                                   KC_F7    , KC_F8    , KC_F9    , KC_F10  , KC_UP    , _______  ,
-    _______       , _______  , _______  , _______  , _______  , _______  ,                                   _______  , KC_BTN1  , KC_BTN2  , _______ , _______  , _______  ,
+    KC_F1         , KC_F2    , KC_F3    , KC_F4    , KC_F5    , KC_F6    ,                                   KC_F7    , KC_F8    , KC_F9    , KC_F10  , KC_F11   , KC_F12   ,
+    _______       , _______  , _______  , _______  , _______  , _______  ,                                   _______  , KC_BTN1  , KC_BTN2  , KC_RCTL , KC_RSFT  , _______  ,
     _______       , _______  , _______  , _______  , _______  , _______  ,                                   _______  , KC_BTN3  , _______  , _______ , _______  , _______  ,
                                _______  , _______  ,     _______  , _______  , _______  ,       KC_BTN4  , KC_BTN5  ,         _______  , _______      , _______
   ),
 
   [2] = LAYOUT_universal(
-    _______       , _______  , _______  , _______  , _______  , _______  ,                                   _______  , _______  , _______  , KC_UP    , _______  , _______  ,
+    _______       , _______  , _______  , _______  , _______  , _______  ,                                   _______  , _______  , _______  , KC_UP    , _______  , KC_DEL   ,
     KC_CAPS       , _______  , _______  , _______  , _______  , _______  ,                                   _______  , _______  , KC_LEFT  , KC_RGHT  , _______  , _______  ,
     _______       , _______  , _______  , _______  , _______  , _______  ,                                   _______  , _______  , _______  , KC_DOWN  , _______  , _______  ,
                                _______  , _______  ,     _______  , _______  , _______  ,       KC_DEL   , _______  ,         _______  , _______       , _______
